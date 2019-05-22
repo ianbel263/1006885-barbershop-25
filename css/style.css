@@ -10,9 +10,6 @@ body {
   text-transform: uppercase;
 
   background-color: #000000;
-  background-image: url(../img/layer.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
 }
 
 body.inner-page {
@@ -20,12 +17,11 @@ body.inner-page {
 
   color: #000000;
 
-	background: none;
+  background: none;
   background-color: #f9f6f3;
-  /*вставить паттерн*/
-  /*background-image: url(../img/layer.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;*/
+  background-image: url("../img/light-pattern.png");
+  background-repeat: repeat;
+  background-position: 0 0;
 }
 
 a {
@@ -118,6 +114,9 @@ a {
   color: #000000;
 
   background-color: #f8f5f2;
+  background-image: url("../img/light-pattern.png");
+  background-repeat: repeat;
+  background-position: 0 0;
   /*вставить паттерн в фон*/
 }
 
@@ -161,6 +160,9 @@ a {
   color: #ffffff;
 
   background-color: #000000;
+  background-image: url("../img/dark-pattern.png");
+  background-repeat: repeat;
+  background-position: 0 0;
   /*вставить паттерн*/
 }
 
